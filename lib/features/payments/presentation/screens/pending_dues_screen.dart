@@ -59,7 +59,7 @@ class PendingDuesScreen extends ConsumerWidget {
                     : ListView.separated(
                         padding: const EdgeInsets.symmetric(horizontal: 24),
                         itemCount: pendingDues.length,
-                        separatorBuilder: (_, __) => const SizedBox(height: 12),
+                        separatorBuilder: (context, index) => const SizedBox(height: 12),
                         itemBuilder: (context, index) {
                           final due = pendingDues[index];
                           final hosteller = due['hosteller'] as Hosteller;

@@ -1,8 +1,8 @@
 import 'dart:async';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import '../../../core/repositories/payment_repository.dart';
-import '../domain/payment_model.dart';
-import '../../hosteller/presentation/hosteller_provider.dart';
+import 'package:hostel_managemet/core/repositories/payment_repository.dart';
+import 'package:hostel_managemet/features/payments/domain/payment_model.dart';
+import 'package:hostel_managemet/features/hosteller/presentation/hosteller_provider.dart';
 
 final paymentRepositoryProvider = Provider<IPaymentRepository>((ref) {
   return PaymentRepository();

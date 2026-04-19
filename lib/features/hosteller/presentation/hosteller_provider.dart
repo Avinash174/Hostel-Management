@@ -77,6 +77,6 @@ final filteredHostellerProvider = Provider<List<Hosteller>>((ref) {
       return filtered;
     },
     loading: () => [],
-    error: (_, __) => [],
+    error: (err, stack) => [],
   );
 });

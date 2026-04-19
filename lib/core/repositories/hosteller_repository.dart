@@ -1,5 +1,5 @@
 import 'package:hostel_managemet/features/hosteller/domain/hosteller_model.dart';
-import '../database/database_helper.dart';
+import 'package:hostel_managemet/core/database/database_helper.dart';
 
 abstract class IHostellerRepository {
   Future<List<Hosteller>> getAll();
