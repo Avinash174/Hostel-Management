@@ -1,0 +1,12 @@
+Analyzing hostel_managemet...                                   
+
+  error • The constructor being called isn't a const constructor • lib/core/theme/app_theme.dart:43:25 • const_with_non_const
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/screens/dashboard/dashboard_screen.dart:101:44 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/screens/dashboard/dashboard_screen.dart:118:46 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/screens/hostellers/hosteller_details_screen.dart:41:56 • deprecated_member_use
+   info • Unnecessary use of multiple underscores • lib/presentation/screens/hostellers/hosteller_list_screen.dart:48:35 • unnecessary_underscores
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/screens/hostellers/hosteller_list_screen.dart:54:56 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/screens/notifications/notifications_screen.dart:73:41 • deprecated_member_use
+   info • The private field _paymentDate could be 'final' • lib/presentation/screens/payments/payment_entry_screen.dart:19:12 • prefer_final_fields
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/presentation/screens/payments/pending_dues_screen.dart:23:36 • deprecated_member_use
+
